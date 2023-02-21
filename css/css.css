@@ -17,7 +17,7 @@ h1, h2 {
 }
 .large-icon-wrap {
 }
-.large-icon-design p, .large-icon-develop p, .large-icon-support p, .large-icon-host p{
+.large-icon-wrapper-design i, .large-icon-wrapper-develop i, .large-icon-wrapper-support i, .large-icon-wrapper-host i {
     border-radius: 50%;
     height: 110px;
     width: 110px;
@@ -25,17 +25,38 @@ h1, h2 {
 }
 
 
-.large-icon-design p{
+i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+    width: 50px;
+}
+
+.large-icon-wrapper-design i{
     background-color: #E6563B;
 }
-.large-icon-develop p{
+.large-icon-wrapper-develop i{
     background-color: #EB9D3A;
 }
-.large-icon-support p{
+.large-icon-wrapper-support i{
     background-color: #7CB06C;
 }
-.large-icon-host p{
+.large-icon-wrapper-host i{
     background-color: #00ABA9;
+}
+
+.large-icon-design {
+    width: 110px;
+    height: 110px;
+}
+.icon-shape {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    padding: 0px;
 }
 
 .sub-title {
