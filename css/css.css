@@ -1,3 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 /*font-family: 'Abel', sans-serif;*/
 /*font-family: 'Anton', sans-serif;*/
+
+.icon-wrap {
+
+}
+.icon-wrap-design p{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #E6563B;
+}
+.icon-wrap-develop p{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #EB9D3A;
+}
+.icon-wrap-support p{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #7CB06C;
+}
+.icon-wrap-host p{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #00ABA9;
+}
