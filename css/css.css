@@ -25,10 +25,12 @@ h1, h2 {
 }
 
 
-i {
+.big-icon-word {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-weight: bold;
 }
 
 .logo-img {
@@ -48,16 +50,16 @@ i {
     background-color: #00ABA9;
 }
 
-.large-icon-design {
-    width: 110px;
-    height: 110px;
-}
-.icon-shape {
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
-    padding: 0px;
-}
+/*.large-icon-design {*/
+/*    width: 110px;*/
+/*    height: 110px;*/
+/*}*/
+/*.icon-shape {*/
+/*    width: 110px;*/
+/*    height: 110px;*/
+/*    border-radius: 50%;*/
+/*    padding: 0;*/
+/*}*/
 
 .sub-title {
     text-align: center;
@@ -70,21 +72,37 @@ i {
 display: flex;
     justify-content: end;
 }
-.icon-wrap-design p, .icon-wrap-develop p, .icon-wrap-support p, .icon-wrap-host p {
+.small-icon-letter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 5px;
+}
+.small-icon-letter p {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
+
+}
+.icon-wrap-design i, .icon-wrap-develop i, .icon-wrap-support i, .icon-wrap-host i {
     height: 18px;
     width: 18px;
     border-radius: 50%;
 }
-.icon-wrap-design p{
+.icon-wrap-design i{
     background-color: #E6563B;
 }
-.icon-wrap-develop p{
+.icon-wrap-develop i{
     background-color: #EB9D3A;
 }
-.icon-wrap-support p{
+.icon-wrap-support i{
     background-color: #7CB06C;
 }
-.icon-wrap-host p{
+.icon-wrap-host i{
     background-color: #00ABA9;
 }
 
@@ -92,4 +110,5 @@ display: flex;
 .main-img {
     border: #E6E6E6 10px solid;
     width: 100%;
+    height: 300px;
 }
