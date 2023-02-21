@@ -1,3 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 /*font-family: 'Abel', sans-serif;*/
 /*font-family: 'Anton', sans-serif;*/
+
+body {
+    background-color: #F0F0F0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.large-container {
+    display: flex;
+    justify-content: center;
+    /*border: blue 5px solid;*/
+}
+.large-icon-wrap {
+}
+.large-icon-design p, .large-icon-develop p, .large-icon-support p, .large-icon-host p{
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    border: white 10px solid;
+}
+
+
+.large-icon-design p{
+    background-color: #E6563B;
+}
+.large-icon-develop p{
+    background-color: #EB9D3A;
+}
+.large-icon-support p{
+    background-color: #7CB06C;
+}
+.large-icon-host p{
+    background-color: #00ABA9;
+}
+
+.sub-title {
+    text-align: center;
+}
+
+.float-me {
+    float: left;
+}
+.icon-wrap {
+display: flex;
+    justify-content: end;
+}
+.icon-wrap-design p, .icon-wrap-develop p, .icon-wrap-support p, .icon-wrap-host p {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+}
+.icon-wrap-design p{
+    background-color: #E6563B;
+}
+.icon-wrap-develop p{
+    background-color: #EB9D3A;
+}
+.icon-wrap-support p{
+    background-color: #7CB06C;
+}
+.icon-wrap-host p{
+    background-color: #00ABA9;
+}
+
+
+.main-img {
+    border: #E6E6E6 10px solid;
+    width: 100%;
+}
