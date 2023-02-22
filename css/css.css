@@ -25,6 +25,9 @@ font-size: xx-large;
     justify-content: center;
 
 }
+.med-marg {
+    margin-bottom: 20px;
+}
 .large-icon-wrapper-design div, .large-icon-wrapper-develop div, .large-icon-wrapper-support div, .large-icon-wrapper-host div {
     border-radius: 50%;
     height: 110px;
