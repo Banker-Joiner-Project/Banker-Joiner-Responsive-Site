@@ -12,7 +12,6 @@ body {
 h1, h2 {
     text-align: center;
     font-family: 'Anton', sans-serif;
-    font-weight: bold;
 }
 h1{
    font-size: 65px;
@@ -43,7 +42,7 @@ font-size: xx-large;
     justify-content: center;
     align-items: center;
     color: white;
-    font-weight: bold;
+
 }
 .big-icon-word p {
     margin: auto;
@@ -92,7 +91,6 @@ display: flex;
     width: 100%;
     display: flex;
     justify-content: center;
-    font-weight: bold;
     color: black;
    margin: 0px 0px 13px 0px;
 
