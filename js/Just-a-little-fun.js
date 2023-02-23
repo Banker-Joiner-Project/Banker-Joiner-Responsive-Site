@@ -1,4 +1,4 @@
-var keyCode = [37, 39, 37, 39, 13];
+var keyCode = [65, 90, 69, 66, 65, 78, 13]; // spell out azeban then press enter
 var ind = 0; //starts index at 0 so we can increment it up
 $(document).keyup(function(event) {
     console.log(event.keyCode);
